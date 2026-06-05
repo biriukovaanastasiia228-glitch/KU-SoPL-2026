@@ -16,12 +16,7 @@
 
 
 def solve(id: str) -> int:
-    """
-    Implement your task here.
-    Your id is passed as a string.
-    Return an integer.
-    """
-    pass
+    return sum(int(char) for char in id if char.isdigit() and int(char) > 4)
 
 
 if __name__ == "__main__":
