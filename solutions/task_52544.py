@@ -21,7 +21,7 @@ def solve(id: str) -> int:
     Your id is passed as a string.
     Return an integer.
     """
-    pass
+  return id.replace("-ex", "").count("4")
 
 
 if __name__ == "__main__":
